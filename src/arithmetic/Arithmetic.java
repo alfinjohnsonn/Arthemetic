@@ -26,7 +26,9 @@ public class Arithmetic
        
         ArithmeticBase r = new ArithmeticBase();
         Scanner in= new Scanner(System.in);
+        System.out.println("Enter first value: ");
         int n= in.nextInt();
+        System.out.println("Enter second value: ");
         int m= in.nextInt();
         double result = r.calculate(m,n);
         System.out.println("result :" +result); 
